@@ -24,7 +24,9 @@ Programando en C.
 
 ## Librerias
 
-Las librerias son fragmentos de codigo que nos permiten reutilizar codigo ya realizado. El formato para agregar una libreria en c, es:
+>Las librerias son fragmentos de codigo que nos permiten reutilizar codigo ya realizado. 
+>
+>El formato para agregar una libreria en c, es:
 `#include <stdio.h>`
 
 ## Variables
@@ -38,13 +40,14 @@ Es la posicion de memoria a la que le asignamos un valor pero este valor no pued
 
 ## Tipos de datos en c
 
-Existen diferentes tipos de datos:
-    int (2 bytes, rango: -32768 a 32768)
-    short (2 bytes, rango: -128 a 127)
-    long (4 bytes)
-    float (4 bytes)
-    double (8 bytes)
-    char (1 byte, rango: 0 a 255)
+>Existen diferentes tipos de datos:
+>
+    1. int (2 bytes, rango: -32768 a 32768)
+    2. short (2 bytes, rango: -128 a 127)
+    3. long (4 bytes)
+    4. float (4 bytes)
+    5. double (8 bytes)
+    6. char (1 byte, rango: 0 a 255)
 
 ## Entradas
 
@@ -58,32 +61,39 @@ La cuestión con este comando es que obtiene solo obtiene los caracteres hasta q
 ## Salidas
 
 Son todos los datos mostrados por el programa.
+>
 Para imprimir, se utiliza el comando:
 `printf("Hola mundo")`
+>
 Para imprimir algun dato, se utiliza el comando:
 `printf("Hola mundo, mi nombre es: %c ", name)`
+>
 Para imprimir con varios datos, se utiliza el comando:
 `printf("Hola mundo, mi nombre es: %c %c ", name, surname)`
 
 ## Operadores
 
 Para realizar las operaciones basicas se usan los signos de comunes de operacion
-`a = x + y`
-`a = x - y`
-`a = x * y`
-`a = x / y`
+>
+Suma: `a = x + y`
+>
+Resta: `a = x - y`
+>
+Multiplicacion: `a = x * y`
+>
+Division: `a = x / y`
+>
 
 ## Operadores de Asignacion
 
 Son operaciones que abrevian determinadas operaciones.
 Por ejemplo:
+>
 `a = a + 10` = `a += 10`
+>
 `a = a - 10` = `a -= 10`
+>
 `a = a * 10` = `a *= 10`
+>
 `a = a / 10` = `a /= 10`
 
-## Metodo Burbuja
-
-Es un algoritmo de ordenamiento. Los elementos en una lista es ordenado por prioridad. Este metodo suele ser ineficiente cuando los elementos son muchos.
-
-## Ordenamiento por Insercion
