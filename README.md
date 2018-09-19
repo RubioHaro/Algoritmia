@@ -24,9 +24,9 @@ Programando en C.
 
 ## Librerias
 
->Las librerias son fragmentos de codigo que nos permiten reutilizar codigo ya realizado. 
+Las librerias son fragmentos de codigo que nos permiten reutilizar codigo ya realizado. 
 >
->El formato para agregar una libreria en c, es:
+El formato para agregar una libreria en c, es:
 `#include <stdio.h>`
 
 ## Variables
@@ -40,7 +40,7 @@ Es la posicion de memoria a la que le asignamos un valor pero este valor no pued
 
 ## Tipos de datos en c
 
->Existen diferentes tipos de datos:
+Existen diferentes tipos de datos:
 >
     1. int (2 bytes, rango: -32768 a 32768)
     2. short (2 bytes, rango: -128 a 127)
