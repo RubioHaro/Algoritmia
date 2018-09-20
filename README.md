@@ -4,6 +4,8 @@ Programando en C.
 
 ## Ejercicios
 
+### I. Operadores
+
 1. Calculadora (operadores basicos: +,-,/,*)
 2. Calculadora de Sisema de Ecuaciones (forma Ax + By = C)
 3. Obtener la velocidad de una caida libre Vf = g * t
