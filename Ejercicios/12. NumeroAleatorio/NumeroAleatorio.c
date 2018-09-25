@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <time.h>
+#define true 1;
+#define false 0;
 
 void display();
 
@@ -10,7 +12,7 @@ int main()
 {
     display();
     runnable();
-    return 0;
+    return true;
 }
 
 void display()
@@ -25,7 +27,7 @@ void runnable()
 {
     char c;
     int number, limInf, limSup;
-    int bucle = 1;
+    int bucle = true;
     srand(time(NULL));
 
     while (bucle == 1)
@@ -40,7 +42,7 @@ void runnable()
             printf("\nIngrese el limite superior:");
             scanf("%d", &limSup);
 
-            bucle = 0;
+            bucle = false;
             break;
         }
         else
@@ -50,7 +52,7 @@ void runnable()
 
                 limInf = 0;
                 limSup = 100;
-                bucle = 0;
+                bucle = false;
                 break;
             }
         }
