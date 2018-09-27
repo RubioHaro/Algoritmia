@@ -6,12 +6,18 @@ Programando en C.
 
 ### I. Operadores
 
-1. Calculadora (operadores basicos: +,-,/,*)
-2. Calculadora de Sisema de Ecuaciones (forma Ax + By = C)
-3. Velocidad de una caida libre Vf = g * t
-4. Fuerza de gravedad entre dos cuerpos, conociendo sus masas y la distancia entre ellos
-5. Pendiente y la ordenada al origen de una recta de la forma f(x)= mx + b, conociendo dos de sus puntos.
-6. Promedio de una cantidad determinada de numeros (reales)
+01. Calculadora (operadores basicos: +,-,/,*)
+02. Calculadora de Sisema de Ecuaciones (forma Ax + By = C)
+03. Velocidad de una caida libre Vf = g * t
+04. Fuerza de gravedad entre dos cuerpos, conociendo sus masas y la distancia entre ellos
+05. Pendiente y la ordenada al origen de una recta de la forma f(x)= mx + b, conociendo dos de sus puntos.
+06. Promedio de una cantidad determinada de numeros (reales)
+07. Descuento (15%) sobre una compra.
+08. Visualizar la tarifa de 'La luz' según el gasto de corriente eléctrica.
+09. Obtener el factorial de un número.
+10. Obtener la sucesión de fibonacci.
+11. Saber si un número es impar haciendo uso del operador (?).
+12. Obtener uno o varios numeros aleatorios.
 
 ### Por Rubio Haro Rodrigo Rodolfo
 
