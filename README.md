@@ -136,11 +136,11 @@ Los únicos valores válidos que se puede asignar a un puntero, en este caso a x
 Ejemplos:
 
 >
-int *numeroPuntero;
+`int *numeroPuntero;`
 >
-float *numeroDecimalPuntero;
+`float *numeroDecimalPuntero;`
 >
-char *CaracterPuntero;
+`char *CaracterPuntero;`
 
 La declaración de un apuntador debe de ser siempre de del mismo tipo de dato a la cual va a apuntar.
 Hay dos operadores para el manejo de punteros.
