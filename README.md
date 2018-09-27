@@ -105,7 +105,42 @@ Por ejemplo:
 Existen diversas formas de pasar parametros a funciones o incluso a clases, en general y para la mayoria de lenguajes de progrmación existen dos formas:
 
 ### Paso por valor
+
 Se hace una copia del valor, valga la redundancia, que tiene la variable, esto implica que no se puede modificar el parametro original.
 
 ### Paso por referencia
-Llamamos paso por referencia, alternativa a pasar por valor, al envio de la dirección o posición de memoria donde está guardada la variable por lo que se puede modificar, en cierta forma se puede decir que literalmente se esta pasando el parametro, no solo se esta copiando el valor de este. 
+
+Llamamos paso por referencia, alternativa a pasar por valor, al envio de la dirección o posición de memoria donde está guardada la variable por lo que se puede modificar, en cierta forma se puede decir que literalmente se esta pasando el parametro, no solo se esta copiando el valor de este.
+
+## Puntero
+
+Es una variable que almacena la dirección de memoria de otra variable. Esto quiere decir, que el puntero apunta al espacio físico donde está el dato o la variable.
+
+### Declaración de punteros
+
+La siguiente es la manera de declarar un puntero que apunte a un entero:
+
+`int *x;`
+
+Esto se puede leer «lo apuntado por x es un entero». En este caso, * no es una multiplicación, sino una derreferenciación.
+
+Los únicos valores válidos que se puede asignar a un puntero, en este caso a x, son NULL o una dirección de memoria. Y debe si se le asigna una direccion de memoria esta debe contener una variable del mismo tipo de dato, en este caso un entero (int).
+
+### Operadores de punteros
+
+1. Operador dirección (&)
+    > devuelve la dirección de memoria de una variable.
+2. Operador indirección o contenido (*)
+    > Devuelve el valor o el contenido de la variable a la que se apunta.
+
+Ejemplos:
+
+>
+int *numeroPuntero;
+>
+float *numeroDecimalPuntero;
+>
+char *CaracterPuntero;
+
+La declaración de un apuntador debe de ser siempre de del mismo tipo de dato a la cual va a apuntar.
+Hay dos operadores para el manejo de punteros.
