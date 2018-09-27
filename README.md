@@ -100,3 +100,12 @@ Por ejemplo:
 >
 `a = a / 10` = `a /= 10`
 
+## Paso de parametros
+
+Existen diversas formas de pasar parametros a funciones o incluso a clases, en general y para la mayoria de lenguajes de progrmación existen dos formas:
+
+### Paso por valor
+Se hace una copia del valor, valga la redundancia, que tiene la variable, esto implica que no se puede modificar el parametro original.
+
+### Paso por referencia
+Llamamos paso por referencia, alternativa a pasar por valor, al envio de la dirección o posición de memoria donde está guardada la variable por lo que se puede modificar, en cierta forma se puede decir que literalmente se esta pasando el parametro, no solo se esta copiando el valor de este. 
