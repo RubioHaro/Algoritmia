@@ -50,7 +50,7 @@ Es la posicion de memoria a la que le asignamos un valor pero este valor no pued
 ## Tipos de datos en c
 
 Existen diferentes tipos de datos:
->
+
     1. int (2 bytes, rango: -32768 a 32768)
     2. short (2 bytes, rango: -128 a 127)
     3. long (4 bytes)
@@ -63,21 +63,27 @@ Existen diferentes tipos de datos:
 Son todos los datos que requiere el programa que sean ingresados por el o los usuarios para poder operar y/o funcionar.
 
 Para recibir los datos ingresados por un usuario, se utiliza el comando:
+
 `char[30] name; scanf("%s", name)`
+
 La cuestión con este comando es que obtiene solo obtiene los caracteres hasta que encuentre un espacio en blanco. Otra alternativa es:
+
 `char[30] name; gets(name)`
 
 ## Salidas
 
 Son todos los datos mostrados por el programa.
->
+
 Para imprimir, se utiliza el comando:
+
 `printf("Hola mundo")`
->
+
 Para imprimir algun dato, se utiliza el comando:
+
 `printf("Hola mundo, mi nombre es: %c ", name)`
->
+
 Para imprimir con varios datos, se utiliza el comando:
+
 `printf("Hola mundo, mi nombre es: %c %c ", name, surname)`
 
 ## Operadores
@@ -150,3 +156,7 @@ Ejemplos:
 
 La declaración de un apuntador debe de ser siempre de del mismo tipo de dato a la cual va a apuntar.
 Hay dos operadores para el manejo de punteros.
+
+## Recursividad
+
+Técnica utilizada en programación que nos permite que un bloque de instrucciones se ejecute un cierto número de veces.
