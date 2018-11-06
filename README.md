@@ -19,6 +19,27 @@ Programando en C.
 11. Saber si un número es impar haciendo uso del operador (?).
 12. Obtener uno o varios numeros aleatorios.
 
+### II. Bucles
+
+1. Ejemplo basico para usar un DoWhile.
+2. Bucle para hacer la suma de los multiplos de un numero.
+
+### III. Punteros
+
+1. Ejemplo basico para usar punteros.
+2. Ejercicio de uso de punteros.
+3. Obtener el radio y las coordenadas del centro de una circunferencia dada su ecuación.
+4. Evaluación una función predeterminada.
+5. Obtener la hipotenusa de un triangulo.
+
+### IV. Archivos
+
+1. Comprobar si existe un archivo.
+2. Crear un archivo.
+3. Abrir y cerrar archivos.
+4. Crear un archivo y escribir en el.
+5. Leer los caracteres de un archivo.
+
 ### Por Rubio Haro Rodrigo Rodolfo
 
 <https://github.com/RubioHaro>
