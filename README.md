@@ -32,7 +32,17 @@ Programando en C.
 4. Evaluación una función predeterminada.
 5. Obtener la hipotenusa de un triangulo.
 
-### IV. Archivos
+### IV. Cadenas
+
+1. Ejemplo básico para usar cadenas.
+
+### V. Arreglos
+
+#### 2. Arreglos Bidimensionales
+
+1. Ejemplo básico para arreglos bidimensionales estaticos.
+
+### VI. Archivos
 
 1. Comprobar si existe un archivo.
 2. Crear un archivo.
