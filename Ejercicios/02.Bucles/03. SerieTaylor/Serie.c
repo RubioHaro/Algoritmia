@@ -16,7 +16,11 @@ void runnable()
     M = InputM();
     X = InputX();
     printf("*******************************\n");
+    printf("Datos ingresados:\n");
+    printf("X: (%d)\n", X);
+    printf("M: (%d)\n", M);
     calculate(X, M);
+    printf("*******************************\n");
 }
 
 void calculate(int X, int M)
@@ -25,30 +29,30 @@ void calculate(int X, int M)
     float resultadoSerie, resultadoFinal;
     int contador;
 
-    contador = 1;
+    resultadoSerie = 0;
     int c = 0;
-    if (M > 1)
+
+    contador = 1;
+    for (int i = 3; contador < M; i + 2)
     {
-        for (int i = 3; contador < M; i + 2)
+        int resPow = pow(X, i);
+        float operation; 
+        operation = (resPow) / (getFactorial(X));
+        if (c == 1)
         {
 
-            if (c = 1)
-            {
-                resultadoSerie += (pow(X, i)) / (getFactorial(X));
-                c = 0;
-            }
-            else
-            {
-                resultadoSerie -= (pow(X, i)) / (getFactorial(X));
-                c = 1;
-            }
-            contador++;
-            printf("cont: (%d)\n", contador);
+            resultadoSerie += operation;
+            c = 0;
         }
+        else
+        {
+            resultadoSerie -= operation;
+            c = 1;
+        }
+        contador++;
     }
-
-    resultadoFinal = X - resultadoSerie;
-    printf("Res: (%f)\n", resultadoFinal);
+    resultadoFinal = X + resultadoSerie;
+    printf("Resultado: (%f)\n", resultadoFinal);
 }
 
 getFactorial(int numero)
